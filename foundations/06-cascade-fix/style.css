@@ -11,7 +11,7 @@ body {
 .para {
   font-size: 22px;
 }
-.para.small-para {
+.small-para {
   font-size: 14px;
   font-weight: 800;
 }
