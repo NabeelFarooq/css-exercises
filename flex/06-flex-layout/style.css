@@ -6,6 +6,7 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -28,33 +29,29 @@ input {
   margin-bottom: 16px;
 }
 .content {
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  gap: 16px;
+  flex-direction: column;
 }
 ul {
-  list-style-type: none;
+  display: flex;
+  list-style: none;
   margin:0;
   padding:0;
+  gap: 16px;
 }
 a {
   text-decoration: none;
-  color: grey;
+  color: #666;
 }
-.header,footer{
+.header,
+.footer{
   display: flex;
   justify-content: space-between;
-  flex: 0 0 auto;
   padding: 16px;
 }
 .footer{
   background-color: #eeeeee;
-  display: flex;
-  flex-direction: column;
-}
-.left-links,.right-links{
-  display: flex;
-  gap: 10px;
 }
